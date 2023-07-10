@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+	<script src="contact.js"></script>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -137,30 +138,32 @@
 									<li><span><i class="icon-globe3"></i></span><a href="https://udaysoni8734.github.io/NewResume/">www.udaysoni.com</a></li>
 								</ul>
 							</div>
-							<div class="col-md-7 col-md-push-1 animate-box">
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
+							<form id="contact-form" method="post">
+								<div class="col-md-7 col-md-push-1 animate-box">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="form-group">
+												<input type="text" class="form-control" id="message" placeholder="Message">
+											</div>
 										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="name" placeholder="Name">
+											</div>
 										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control" id="email" placeholder="Email">
+											</div>
 										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<input type="submit" value="Send Message" class="btn btn-primary">
+										<div class="col-md-12">
+											<div class="form-group">
+												<input  type="button" value="Send Message" id="submit-btn" class="btn btn-primary">
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
+							</form>
 						</div>
 					</div>
 				</div>
